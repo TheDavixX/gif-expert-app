@@ -25,3 +25,9 @@ export const GifGrid = ({ category }) => {
         </>
     )
 }
+
+
+/*
+    1. Enzyme 
+    2. Enzyme to JSON
+*/
