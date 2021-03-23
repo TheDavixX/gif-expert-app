@@ -3,6 +3,7 @@ import { shallow } from 'enzyme';
 import { GifGridItem } from '../../components/GifGridItem';
 
 describe('Pruebas con <CounterApp />', ()=>{
+    
     const title = "Esto es un titulo";
     const url = "https://localhost/logo.png";
     const wrapper = shallow(<GifGridItem title={ title } url={ url }/>);
